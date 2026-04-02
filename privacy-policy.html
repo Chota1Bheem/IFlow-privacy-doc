@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — IFlow</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f9fafb;
+            color: #111827;
+            line-height: 1.7;
+        }
+        header {
+            background: #1e293b;
+            color: #fff;
+            padding: 24px 0;
+            text-align: center;
+        }
+        header h1 { font-size: 1.8rem; font-weight: 700; }
+        header p { color: #94a3b8; margin-top: 4px; font-size: 0.95rem; }
+        .container {
+            max-width: 800px;
+            margin: 48px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+            padding: 48px;
+        }
+        .last-updated {
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #1e293b;
+            margin: 32px 0 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        p { margin-bottom: 12px; color: #374151; }
+        ul {
+            margin: 8px 0 12px 20px;
+            color: #374151;
+        }
+        ul li { margin-bottom: 6px; }
+        a { color: #3b82f6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .highlight {
+            background: #eff6ff;
+            border-left: 4px solid #3b82f6;
+            padding: 16px 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+            color: #1e40af;
+            font-size: 0.95rem;
+        }
+        footer {
+            text-align: center;
+            color: #9ca3af;
+            font-size: 0.85rem;
+            margin: 48px 0 24px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>IFlow</h1>
+    <p>Instagram Automation Platform</p>
+</header>
+
+<div class="container">
+
+    <p class="last-updated">Last updated: April 2, 2026</p>
+
+    <div class="highlight">
+        IFlow is an Instagram automation platform that helps influencers and creators automate comment responses and direct messages. We take your privacy seriously and are committed to protecting your personal data.
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <p>When you connect your Instagram account to IFlow, we collect and store the following information:</p>
+    <ul>
+        <li>Your Instagram username and account ID</li>
+        <li>Your Facebook Page ID and access tokens (required by Meta's API)</li>
+        <li>Your email address (derived from your Instagram username for account creation)</li>
+        <li>Automation flow configurations you create (keywords, post IDs, message templates)</li>
+        <li>Comment and message event data received via Meta webhooks</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+    <p>We use the information we collect to:</p>
+    <ul>
+        <li>Authenticate your Instagram account via Meta's OAuth flow</li>
+        <li>Detect keyword triggers in comments on your Instagram posts</li>
+        <li>Send automated replies on your behalf using your configured message templates</li>
+        <li>Store and manage your automation flows and settings</li>
+        <li>Improve and maintain the IFlow platform</li>
+    </ul>
+
+    <h2>3. Meta / Instagram Data</h2>
+    <p>IFlow integrates with the Meta Graph API to access your Instagram Business or Creator account. By connecting your account, you authorize IFlow to:</p>
+    <ul>
+        <li>Read basic profile information (<code>instagram_basic</code>)</li>
+        <li>Manage and read comments on your posts (<code>instagram_manage_comments</code>)</li>
+        <li>Send and receive direct messages (<code>instagram_manage_messages</code>)</li>
+        <li>Access your linked Facebook Pages (<code>pages_show_list</code>, <code>pages_read_engagement</code>)</li>
+    </ul>
+    <p>We do not access, store, or process data from your followers beyond what is strictly necessary to execute your configured automation flows.</p>
+
+    <h2>4. Data Storage</h2>
+    <p>Your data is stored in a secured PostgreSQL database. Access tokens are stored to maintain your connection with Meta's API and are encrypted at rest. We retain your data for as long as your account is active. You may request deletion at any time.</p>
+
+    <h2>5. Data Sharing</h2>
+    <p>We do not sell, trade, or share your personal information with third parties except:</p>
+    <ul>
+        <li><strong>Meta Platforms:</strong> to execute API calls on your behalf</li>
+        <li><strong>Infrastructure providers:</strong> cloud hosting and database services used to run IFlow</li>
+        <li><strong>Legal requirements:</strong> if required by law or legal process</li>
+    </ul>
+
+    <h2>6. Data Retention and Deletion</h2>
+    <p>You can disconnect your Instagram account and delete all associated data at any time by contacting us. Upon deletion, we will remove your access tokens, flow configurations, and account information from our systems within 30 days.</p>
+    <p>To request data deletion, email us at: <a href="mailto:privacy@iflow.app">privacy@iflow.app</a></p>
+
+    <h2>7. Security</h2>
+    <p>We implement industry-standard security measures to protect your data, including encrypted data transmission (HTTPS), secure token storage, and access controls. However, no system is 100% secure and we cannot guarantee absolute security.</p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>IFlow is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the "Last updated" date at the top of this page. Continued use of IFlow after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>10. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or how we handle your data, please contact us:</p>
+    <ul>
+        <li>Email: <a href="mailto:privacy@iflow.app">privacy@iflow.app</a></li>
+    </ul>
+
+</div>
+
+<footer>
+    &copy; 2026 IFlow. All rights reserved.
+</footer>
+
+</body>
+</html>
